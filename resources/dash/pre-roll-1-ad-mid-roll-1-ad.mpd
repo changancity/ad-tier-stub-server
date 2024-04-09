@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-main:2011" minBufferTime="PT8.00S" mediaPresentationDuration="PT9M86.125S" type="static">
+  <Period start="PT0S">
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1280" maxHeight="720">
+      <SegmentTemplate timescale="12800" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1">
+        <SegmentTimeline>
+          <S d="123904"/>
+          <S d="68096"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="ad2/video/avc1" codecs="avc1.64001F" width="1280" height="720" scanType="progressive" frameRate="25" bandwidth="1184979"/>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
+      <SegmentTemplate timescale="44100" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1">
+        <SegmentTimeline>
+          <S d="427008"/>
+          <S d="234496"/>
+          <S d="3072"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="ad2/audio/en/mp4a.40.2" codecs="mp4a.40.2" bandwidth="129865" audioSamplingRate="44100">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="2"/>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT15S">
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1280" maxHeight="720">
+      <SegmentTemplate timescale="12288" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1">
+        <SegmentTimeline>
+          <S d="128000"/>
+          <S d="17920"/>
+          <S d="47616"/>
+          <S d="89600"/>
+          <S d="128000" r="1"/>
+          <S d="47104"/>
+          <S d="102912"/>
+          <S d="56320"/>
+          <S d="38400"/>
+          <S d="69120"/>
+          <S d="23040"/>
+          <S d="26624"/>
+          <S d="25600"/>
+          <S d="54272"/>
+          <S d="120320"/>
+          <S d="20480"/>
+          <S d="102400"/>
+          <S d="51200"/>
+          <S d="107520"/>
+          <S d="65024"/>
+          <S d="35840"/>
+          <S d="31744"/>
+          <S d="41984"/>
+          <S d="128000"/>
+          <S d="111616"/>
+          <S d="33280"/>
+          <S d="84992"/>
+          <S d="59392"/>
+          <S d="17920"/>
+          <S d="12288"/>
+          <S d="35840"/>
+          <S d="22016"/>
+          <S d="18944"/>
+          <S d="80896"/>
+          <S d="19968"/>
+          <S d="33792"/>
+          <S d="108544"/>
+          <S d="34816"/>
+          <S d="30720"/>
+          <S d="12800"/>
+          <S d="14848"/>
+          <S d="35840"/>
+          <S d="53248"/>
+          <S d="21504"/>
+          <S d="18944"/>
+          <S d="17408"/>
+          <S d="33792"/>
+          <S d="26624"/>
+          <S d="82432"/>
+          <S d="40448"/>
+          <S d="30208"/>
+          <S d="45056"/>
+          <S d="31232"/>
+          <S d="117760"/>
+          <S d="17920"/>
+          <S d="89088"/>
+          <S d="15360"/>
+          <S d="20480" r="1"/>
+          <S d="40960"/>
+          <S d="30720"/>
+          <S d="40960"/>
+          <S d="20480"/>
+          <S d="51200"/>
+          <S d="69120"/>
+          <S d="24064"/>
+          <S d="22016"/>
+          <S d="20480"/>
+          <S d="40960"/>
+          <S d="92160"/>
+          <S d="40960"/>
+          <S d="19456"/>
+          <S d="35328"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="bbb_part1/video/avc1" codecs="avc1.64001F" width="1280" height="720" scanType="progressive" frameRate="24" bandwidth="1224062"/>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
+      <SegmentTemplate timescale="48000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1">
+        <SegmentTimeline>
+          <S d="499712"/>
+          <S d="70656"/>
+          <S d="185344"/>
+          <S d="350208"/>
+          <S d="499712"/>
+          <S d="500736"/>
+          <S d="183296"/>
+          <S d="402432"/>
+          <S d="220160"/>
+          <S d="149504"/>
+          <S d="270336"/>
+          <S d="90112"/>
+          <S d="103424"/>
+          <S d="100352"/>
+          <S d="211968"/>
+          <S d="470016"/>
+          <S d="79872"/>
+          <S d="400384"/>
+          <S d="199680"/>
+          <S d="419840"/>
+          <S d="253952"/>
+          <S d="140288"/>
+          <S d="123904"/>
+          <S d="163840"/>
+          <S d="500736"/>
+          <S d="435200"/>
+          <S d="130048"/>
+          <S d="331776"/>
+          <S d="232448"/>
+          <S d="69632"/>
+          <S d="48128"/>
+          <S d="140288"/>
+          <S d="86016"/>
+          <S d="73728"/>
+          <S d="316416"/>
+          <S d="77824"/>
+          <S d="132096"/>
+          <S d="423936"/>
+          <S d="136192"/>
+          <S d="119808"/>
+          <S d="50176"/>
+          <S d="57344"/>
+          <S d="140288"/>
+          <S d="207872"/>
+          <S d="83968"/>
+          <S d="74752"/>
+          <S d="67584"/>
+          <S d="132096"/>
+          <S d="103424"/>
+          <S d="322560"/>
+          <S d="157696"/>
+          <S d="117760"/>
+          <S d="176128"/>
+          <S d="121856"/>
+          <S d="460800"/>
+          <S d="69632"/>
+          <S d="348160"/>
+          <S d="59392"/>
+          <S d="80896"/>
+          <S d="79872"/>
+          <S d="159744"/>
+          <S d="119808"/>
+          <S d="159744"/>
+          <S d="80896"/>
+          <S d="199680"/>
+          <S d="270336"/>
+          <S d="93184"/>
+          <S d="86016"/>
+          <S d="79872"/>
+          <S d="160768"/>
+          <S d="359424"/>
+          <S d="160768"/>
+          <S d="75776"/>
+          <S d="137216"/>
+          <S d="1024"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="bbb_part1/audio/en/mp4a.40.2" codecs="mp4a.40.2" bandwidth="345233" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="6"/>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT5M15S">
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1280" maxHeight="720">
+      <SegmentTemplate timescale="15360" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1">
+        <SegmentTimeline>
+          <S d="152064"/>
+          <S d="78336"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="ad1/video/avc1" codecs="avc1.64001F" width="1280" height="720" scanType="progressive" frameRate="30" bandwidth="1543719"/>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true">
+      <SegmentTemplate timescale="44100" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1">
+        <SegmentTimeline>
+          <S d="436224"/>
+          <S d="225280"/>
+          <S d="2048"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="ad1/audio/und/mp4a.40.2" codecs="mp4a.40.2" bandwidth="129756" audioSamplingRate="44100">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="2"/>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT5M30S">
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1280" maxHeight="720">
+      <SegmentTemplate timescale="12288" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1">
+        <SegmentTimeline>
+          <S d="59904"/>
+          <S d="38400"/>
+          <S d="51200"/>
+          <S d="23552"/>
+          <S d="34304"/>
+          <S d="24576"/>
+          <S d="36352"/>
+          <S d="18944"/>
+          <S d="128000"/>
+          <S d="33792"/>
+          <S d="35328"/>
+          <S d="128000"/>
+          <S d="66560"/>
+          <S d="128000"/>
+          <S d="65024"/>
+          <S d="17408"/>
+          <S d="32768"/>
+          <S d="36352"/>
+          <S d="34816"/>
+          <S d="118272"/>
+          <S d="20992"/>
+          <S d="24576"/>
+          <S d="19968"/>
+          <S d="34816"/>
+          <S d="70656"/>
+          <S d="41984"/>
+          <S d="28160"/>
+          <S d="20992"/>
+          <S d="46592"/>
+          <S d="17408"/>
+          <S d="33280"/>
+          <S d="22528"/>
+          <S d="30208"/>
+          <S d="25600"/>
+          <S d="13312"/>
+          <S d="40448"/>
+          <S d="35840"/>
+          <S d="22528"/>
+          <S d="61952"/>
+          <S d="19968"/>
+          <S d="32768"/>
+          <S d="84480"/>
+          <S d="80384"/>
+          <S d="44544"/>
+          <S d="115712"/>
+          <S d="18944"/>
+          <S d="89600"/>
+          <S d="18432"/>
+          <S d="26624"/>
+          <S d="30208"/>
+          <S d="51200"/>
+          <S d="43520"/>
+          <S d="128000" r="7"/>
+          <S d="44032"/>
+          <S d="128000"/>
+          <S d="62976"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="bbb_part2/video/avc1" codecs="avc1.64001F" width="1280" height="720" scanType="progressive" frameRate="24" bandwidth="2916416"/>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
+      <SegmentTemplate timescale="48000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1">
+        <SegmentTimeline>
+          <S d="234496"/>
+          <S d="149504"/>
+          <S d="199680"/>
+          <S d="92160"/>
+          <S d="134144"/>
+          <S d="96256"/>
+          <S d="141312"/>
+          <S d="74752"/>
+          <S d="499712"/>
+          <S d="132096"/>
+          <S d="138240"/>
+          <S d="499712"/>
+          <S d="260096"/>
+          <S d="499712"/>
+          <S d="253952"/>
+          <S d="68608"/>
+          <S d="128000"/>
+          <S d="141312"/>
+          <S d="136192"/>
+          <S d="461824"/>
+          <S d="81920"/>
+          <S d="96256"/>
+          <S d="77824"/>
+          <S d="136192"/>
+          <S d="276480"/>
+          <S d="163840"/>
+          <S d="109568"/>
+          <S d="81920"/>
+          <S d="182272"/>
+          <S d="67584"/>
+          <S d="130048"/>
+          <S d="88064"/>
+          <S d="117760"/>
+          <S d="100352"/>
+          <S d="52224"/>
+          <S d="157696"/>
+          <S d="140288"/>
+          <S d="88064"/>
+          <S d="241664"/>
+          <S d="77824"/>
+          <S d="128000"/>
+          <S d="330752"/>
+          <S d="313344"/>
+          <S d="174080"/>
+          <S d="452608"/>
+          <S d="73728"/>
+          <S d="350208"/>
+          <S d="71680"/>
+          <S d="104448"/>
+          <S d="117760"/>
+          <S d="199680"/>
+          <S d="169984"/>
+          <S d="499712"/>
+          <S d="500736"/>
+          <S d="499712" r="1"/>
+          <S d="500736"/>
+          <S d="499712" r="2"/>
+          <S d="172032"/>
+          <S d="500736"/>
+          <S d="245760"/>
+          <S d="20480"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="bbb_part2/audio/en/mp4a.40.2" codecs="mp4a.40.2" bandwidth="343205" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="6"/>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
