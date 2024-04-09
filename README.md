@@ -5,7 +5,7 @@
 
 ## API server
 
-### `https://changancity.github.io/ad-tier-stub-server/api/assets`
+### `https://changancity.github.io/ad-tier-stub-server/api/playlist`
 
 ```ts
 type Response = {
