@@ -1,0 +1,29 @@
+{
+    "sessionId": "02",
+    "avails": [
+        {
+            "availId": "1",
+            "ads": [
+                {
+                    "adId": "1-1",
+                    "startTimeInSeconds": 0,
+                    "durationInSeconds": 15
+                }
+            ],
+            "startTimeInSeconds": 0,
+            "durationInSeconds": 15
+        },
+        {
+            "availId": "2",
+            "ads": [
+                {
+                    "adId": "2-1",
+                    "startTimeInSeconds": 315,
+                    "durationInSeconds": 15
+                }
+            ],
+            "startTimeInSeconds": 315,
+            "durationInSeconds": 15
+        }
+    ]
+}
